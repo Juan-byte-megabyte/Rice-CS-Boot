@@ -4,9 +4,9 @@ The files in this repository were used to configure the network depicted below.
 
 ![alt-text](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/b30a5f320ea4391d163a0a4fa31f5c5f475363ef/Diagrams/Azure%20Network%20Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  [I'm an inline-style link with title](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/17982617cc1420008dd4c0606ac58d5850b1f925/Ansible/my%20firstplaybook.yml)
 
 This document contains the following details:
 - Description of the Topologu
@@ -19,10 +19,10 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
+- Load balancers help ensure environment availability through distribution of incoming data to web servers. Jump boxes allow for more easy administration of multiple systems and provide an additional layer between the outside and internal assets.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - _TODO: What does Filebeat watch for?_
