@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
-  [I'm an inline-style link with title](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/17982617cc1420008dd4c0606ac58d5850b1f925/Ansible/my%20firstplaybook.yml)
+  [Playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/17982617cc1420008dd4c0606ac58d5850b1f925/Ansible/my%20firstplaybook.yml)
 
 This document contains the following details:
 - Description of the Topologu
