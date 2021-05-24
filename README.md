@@ -110,9 +110,7 @@ SSH into the control node and follow the steps below:
 -_In /etc/ansible/hosts you tell it where you want each to be installed ElkServers or FileBeat.
 - Which URL do you navigate to in order to check that the ELK server is running?
  _http://publicip(elkserver):5601
-
-- _Which URL do you navigate to in order to check that the ELK server is running?
-http://publicip(elkserver):5601
+ 
 
 Commands needed to run the Anisble Configuration for the Elk-Server are:
 
