@@ -82,12 +82,12 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-..*	Web-3 (10.0.0.8)
-..*	Web-4 (10.0.0.9)
+  - Web-3 (10.0.0.8)
+  - Web-4 (10.0.0.9)
 
 We have installed the following Beats on these machines:
-..* Filebeat
-..* Metricbeat
+  - Filebeat
+  - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
   - Filebeat helps generate and organize log files to send to Logstash and Elasticsearch. Specifically, it logs information about the file system, including which files have changed and when.
