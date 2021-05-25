@@ -126,18 +126,18 @@ SSH into the control node and follow the steps below:
 4. sudo docker attach docker container name
 
 5. Add DVWA’s & ELK to hosts file:
-  - cd /etc/ansible
-  - nano /etc/ansible/hosts
-  - add private IP’s for [webservers]
-  - add private IP for [elk]
+   - cd /etc/ansible
+   - nano /etc/ansible/hosts
+   - add private IP’s for [webservers]
+   - add private IP for [elk]
 
 6. Run playbook to update elk:
-  - ansible-playbook elk-playbook.yml (Installs and Configures ELK-Server)
+   - ansible-playbook elk-playbook.yml (Installs and Configures ELK-Server)
 
 7. Run playbook to update the filebeat:
-  - ansible-playbook filebeat-playbook.yml (Installs and Configures Beats)
+   - ansible-playbook filebeat-playbook.yml (Installs and Configures Beats)
 
 8. Run playbook to install metricbeat:
-  - ansible-playbook metricbeat-playbook.yml (installs and configures metricbeat)
+   - ansible-playbook metricbeat-playbook.yml (installs and configures metricbeat)
 
 9. Open a new browser on Personal Workstation, navigate to (ELK-Server-PublicIP:5601/app/kibana) - This will bring up Kibana Web Portal
