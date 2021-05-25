@@ -6,9 +6,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
-*[Playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/17982617cc1420008dd4c0606ac58d5850b1f925/Ansible/my%20firstplaybook.yml) - This was used to install DVWA servers.
+1. [Playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/17982617cc1420008dd4c0606ac58d5850b1f925/Ansible/my%20firstplaybook.yml) - This was used to install DVWA servers.
 
-*[ELKPlaybook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/Install%20ELK.yml) - This was used to install ELK server.
+2. [ELKPlaybook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/Install%20ELK.yml) - This was used to install ELK server.
 
 *[filebeat-playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/install%20filebeat.yml) - This was used to install/configure Filebeat on DVWA & ELK server.
 
@@ -115,7 +115,7 @@ SSH into the control node and follow the steps below:
   http://publicip(elkserver):5601
  
 
-Commands needed to run the Anisble Configuration for the Elk-Server are:
+###Commands needed to run the Anisble Configuration for the Elk-Server are:
 
 ssh RedAdmin@JumpBox(Public IP Address)
 
