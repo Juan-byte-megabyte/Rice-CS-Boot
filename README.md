@@ -58,10 +58,10 @@ A summary of the access policies in place can be found in the table below.
 
 |    Name   |  Public Accesible |      Allowed IP Address     |
 |:---------:|:-----------------:|:---------------------------:|
-| Jump Box  | No                |     Personal IP Address     |
-| Web-3     | Yes-Load Balancer |        104.45.144.39        |
-| Web-4     | Yes-Load Balancer |        104.45.144.39        |
-| ELK Stack | No                | Personal IP Address via SSH |
+| Jump Box  | Yes               |     Personal IP Address     |
+| Web-3     | No -Load Balancer |        104.45.144.39        |
+| Web-4     | No -Load Balancer |        104.45.144.39        |
+| ELK Stack | Yes               | Personal IP Address via SSH |
 
 ### Elk Configuration
 
@@ -117,13 +117,13 @@ SSH into the control node and follow the steps below:
 
 ###Commands needed to run the Anisble Configuration for the Elk-Server are:
 
-ssh RedAdmin@JumpBox(Public IP Address)
+ssh username@JumpBox(Public IP Address)
 
 sudo docker container list -a
 
-sudo docker start compassionate_bhaskara
+sudo docker start docker container name
 
-sudo docker attach compassionate_bhaskara
+sudo docker attach docker container name
 
 Add DVWA’s & ELK to hosts file:
 *cd /etc/ansible
