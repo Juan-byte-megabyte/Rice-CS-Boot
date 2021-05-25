@@ -7,8 +7,11 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
 [Playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/17982617cc1420008dd4c0606ac58d5850b1f925/Ansible/my%20firstplaybook.yml) - This was used to install DVWA servers.
+
 [ELKPlaybook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/Install%20ELK.yml) - This was used to install ELK server.
+
 [filebeat-playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/install%20filebeat.yml) - This was used to install/configure Filebeat on DVWA & ELK server.
+
 [metricbeat-playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/install%20metricbeat.yml) - This was used to install/configure Metricbeat on DVWA & ELK server.
   
 This document contains the following details:
@@ -101,15 +104,15 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to ELK-Server-PublicIP:5601/app/kibana to check that the installation worked as expected.
 
 - Which file is the playbook? 
- _elk-playbook.yml - used to install ELK Server
+  elk-playbook.yml - used to install ELK Server
 - Where do you copy it?_
- _/etc/ansible 
+  /etc/ansible 
 - Which file do you update to make Ansible run the playbook on a specific machine?
--_/etc/ansible/hosts.cfg
+  /etc/ansible/hosts.cfg
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?
--_In /etc/ansible/hosts you tell it where you want each to be installed ElkServers or FileBeat.
+  In /etc/ansible/hosts you tell it where you want each to be installed ElkServers or FileBeat.
 - Which URL do you navigate to in order to check that the ELK server is running?
- _http://publicip(elkserver):5601
+  http://publicip(elkserver):5601
  
 
 Commands needed to run the Anisble Configuration for the Elk-Server are:
@@ -138,4 +141,3 @@ Run playbook to install metricbeat:
 ansible-playbook metricbeat-playbook.yml (installs and configures metricbeat)
 
 Open a new browser on Personal Workstation, navigate to (ELK-Server-PublicIP:5601/app/kibana) - This will bring up Kibana Web Portal
-
