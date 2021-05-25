@@ -39,8 +39,8 @@ The configuration details of each machine may be found below.
 |    Name    |          Function         | IP Address |   Operating System       |
 |:----------:|:-------------------------:|:----------:|:--------------------:    |
 | Jump Box   | Gateway                   | 10.0.0.4   | Linux (Ubuntu 18.04 LTS) |
-| Web-3      | WebServer - Docker - DVWA | 10.0.0.8   | Linux (Ubuntu 18.04 LTS) |
-| Web-4      | WebServer - Docker - DVWA | 10.0.0.9   | Linux (Ubuntu 18.04 LTS) |
+| Web-3      | WebServer                 | 10.0.0.8   | Linux (Ubuntu 18.04 LTS) |
+| Web-4      | WebServer                 | 10.0.0.9   | Linux (Ubuntu 18.04 LTS) |
 | ELK Server | ELK Stack                 | 10.1.0.4   | Linux (Ubuntu 18.04 LTS) |
 
 
