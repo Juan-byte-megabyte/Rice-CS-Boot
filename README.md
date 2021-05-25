@@ -10,9 +10,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 2. [ELKPlaybook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/Install%20ELK.yml) - This was used to install ELK server.
 
-*[filebeat-playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/install%20filebeat.yml) - This was used to install/configure Filebeat on DVWA & ELK server.
+..*[filebeat-playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/install%20filebeat.yml) - This was used to install/configure Filebeat on DVWA & ELK server.
 
-*[metricbeat-playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/install%20metricbeat.yml) - This was used to install/configure Metricbeat on DVWA & ELK server.
+..*[metricbeat-playbook.yml](https://github.com/Juan-byte-megabyte/Rice-CS-Boot/blob/20f797142e8605fbe55ef66cf221e0617f2edbb9/Ansible/install%20metricbeat.yml) - This was used to install/configure Metricbeat on DVWA & ELK server.
   
 This document contains the following details:
 - Description of the Topology
