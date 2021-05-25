@@ -117,27 +117,27 @@ SSH into the control node and follow the steps below:
 
 ### Commands needed to run the Anisble Configuration for the Elk-Server are:
 
-ssh username@JumpBox(Public IP Address)
+1. ssh username@JumpBox(Public IP Address)
 
-sudo docker container list -a
+2. sudo docker container list -a
 
-sudo docker start docker container name
+3. sudo docker start docker container name
 
-sudo docker attach docker container name
+4. sudo docker attach docker container name
 
-Add DVWA’s & ELK to hosts file:
-*cd /etc/ansible
-*nano /etc/ansible/hosts
-*add private IP’s for [webservers]
-*add private IP for [elk]
+5. Add DVWA’s & ELK to hosts file:
+  - cd /etc/ansible
+  - nano /etc/ansible/hosts
+  - add private IP’s for [webservers]
+  - add private IP for [elk]
 
-Run playbook to update elk:
-*ansible-playbook elk-playbook.yml (Installs and Configures ELK-Server)
+6. Run playbook to update elk:
+  - ansible-playbook elk-playbook.yml (Installs and Configures ELK-Server)
 
-Run playbook to update the filebeat:
-ansible-playbook filebeat-playbook.yml (Installs and Configures Beats)
+7. Run playbook to update the filebeat:
+  - ansible-playbook filebeat-playbook.yml (Installs and Configures Beats)
 
-Run playbook to install metricbeat:
-ansible-playbook metricbeat-playbook.yml (installs and configures metricbeat)
+8. Run playbook to install metricbeat:
+  - ansible-playbook metricbeat-playbook.yml (installs and configures metricbeat)
 
-Open a new browser on Personal Workstation, navigate to (ELK-Server-PublicIP:5601/app/kibana) - This will bring up Kibana Web Portal
+9. Open a new browser on Personal Workstation, navigate to (ELK-Server-PublicIP:5601/app/kibana) - This will bring up Kibana Web Portal
