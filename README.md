@@ -90,9 +90,9 @@ We have installed the following Beats on these machines:
 ..* Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-_ Filebeat helps generate and organize log files to send to Logstash and Elasticsearch. Specifically, it logs information about the file system, including which files have changed and when.
+  - Filebeat helps generate and organize log files to send to Logstash and Elasticsearch. Specifically, it logs information about the file system, including which files have changed and when.
 
-_ Metricbeat collects metrics from systems and services to send to Elasticsearch on the ELK Server. The logs contain information such as CPU usage, memory, disk I/O, and network I/O statistics.
+  - Metricbeat collects metrics from systems and services to send to Elasticsearch on the ELK Server. The logs contain information such as CPU usage, memory, disk I/O, and network I/O statistics.
 
 
 ### Using the Playbook
@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
 
 - Which file is the playbook? 
   elk-playbook.yml - used to install ELK Server
-- Where do you copy it?_
+- Where do you copy it?
   /etc/ansible 
 - Which file do you update to make Ansible run the playbook on a specific machine?
   /etc/ansible/hosts.cfg
