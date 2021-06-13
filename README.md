@@ -115,7 +115,7 @@ SSH into the control node and follow the steps below:
   http://publicip(elkserver):5601
  
 
-### Commands needed to run the Anisble Configuration for the Elk-Server are:
+### Commands needed to run the Ansible Configuration for the Elk-Server are:
 
 1. ssh username@JumpBox(Public IP Address)
 
